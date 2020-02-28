@@ -3,7 +3,7 @@ pipeline {
         stages {
             stage('SCM Checkout'){
 				steps{
-					git branch: 'master', url: 'https://github.com/amitkum2/maven-project'
+					git branch: 'master', url: 'https://github.com/patilbhagyashri598/Innovecture-Coding-Assignment/'
 					}
 				}
 			stage('Build the artifacts'){
